@@ -1,0 +1,1 @@
+$('[data-togle="tooltip"]').tooltip();

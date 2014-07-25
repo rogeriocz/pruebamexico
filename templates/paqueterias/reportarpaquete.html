@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}Paqueteria{% endblock %}
+
+{% block content %}
+<section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="imagen-fondo">
+          <p class="app-titulo">Grupo de usuarios linux<p>
+          <p class="app-titulo">Mina<p>
+          <p class="app-tex">Quieres unirte a nuestro grupo de usuario Linux en Minatitlan</p>
+      </div>    
+    </div>
+  </div>
+</section>
+
+<section>
+{% for Paqueteria in object_list %}
+<p>Paqueteria:</p>
+<p>responsable:</p>
+{% endfor %}
+</section>
+
+
+{% endblock %}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{% block title %}{% endblock %}</title>
+        <meta name="description" content="">
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,300' rel='stylesheet' type='text/css'>
+        {% load static from staticfiles %}
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/bootstrap-theme.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/icomoon.css' %}">
+        <link rel="stylesheet" href="{% static 'css/main.css' %}">
+
+        <script src="{% static 'js/vendor/modernizr-2.6.2.min.js' %}"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+      
+    <nav class="navbar navbar-fixed-top navbar-personalizado">
+      <div class="container">
+
+        <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+          <span class="icon-bar app-bar"></span>
+          <span class="icon-bar app-bar"></span>
+          <span class="icon-bar app-bar"></span>          
+        </button>
+        <a href="#" class="navbar-brand link-personalizado">Google</a>
+      </div>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="nav navbar-nav navbar-right navbar-personalizado ">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Clientes</a></li>
+          <li data-toggle="modal" data-target="#miModal"><a href="#">LOGIN</a></li>
+        </ul>
+        </div>
+      </div>
+    </nav>
+
+<!--Login modal-->
+<div class="modal fade" id="miModal">
+  <div class="modal-dialog">
+    <div class="modal-content mod-dal">
+      <div class="modal-header">
+        <button class=" close " aria-hidden="true" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title ">Cuervo</h4>
+      </div>
+      <div class="modal-body mod-dy">
+        
+      <h1 class="app-titulo">Login</h1>
+      <p class="app-desc">Entra o registrate con Facebook o Twitter</p>
+      <div class="app-redes">
+        <div class="app-sociales">
+          <div class="app-facebook">
+            <button class="btn btn-facebook btn-block">
+              <span class="icon-facebook"></span>
+              <span> Facebook </span>        
+            </button>
+          </div>
+
+          <div class="app-twitter">
+            <button class="btn btn-twitter btn-block">
+              <span class="icon-twitter"></span>
+              <span> Twitter </span>
+            </button>
+            </div>
+          </div>
+        
+      </div>
+   
+      </div>
+      <div class=""></div>
+      
+    </div>
+  </div>
+</div>
+<!--Final Login modal-->
+
+
+{% block content %}
+
+{% endblock %}
+
+    <footer class="app-footer">
+        
+              <h5>Copyright © Rogeriocz</h5>
+            
+    </footer>
+
+
+
+        <script>window.jQuery || document.write('<script src="{% static 'js/vendor/jquery-1.11.0.min.js' %}"><\/script>')</script>
+
+        <script src="{% static 'js/vendor/bootstrap.min.js' %}"></script>
+
+        <script src="{% static 'js/main.js' %}"></script>
+    </body>
+</html>

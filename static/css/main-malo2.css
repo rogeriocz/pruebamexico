@@ -1,0 +1,91 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.navbar-personalizado
+{
+background-color: #373c44;
+border-radius: 0;
+margin-bottom: 0;
+padding-bottom: 0;
+}
+.link-personalizado
+{
+	color: white;
+	text-shadow:none;
+}
+.link-personalizado:hover
+{
+	color: #dd6c06;
+
+}
+.navbar-personalizado>li>a 
+{
+	color: white;
+	text-shadow: none;
+}
+.navbar-personalizado>li>a:hover
+{
+	background-color: #0e68b8;
+}
+.app-bar
+{
+	background: white;
+}
+.btn-facebook{
+	color: white;
+	background-color: #3e5998;
+	display: inline-block;
+}
+.btn-twitter{
+	color: white;
+	background-color: #00acde;
+	display: inline-block;
+}
+.btn{
+	border-radius: 0 !important;
+}
+
+.app-footer{
+	background-color: #373c44;
+	color: #9d9ea0;
+	font-size: 12px;
+	text-align: center;
+	padding: 0px;
+}
+.app-login
+{
+	padding-top: 0px;
+	color:#9d9ea0;
+	background-color: #373c44;
+	text-align: center;
+	font-size: 40px;
+	padding-bottom: 8px;
+}
+.app-comenta
+{
+	padding-top: 4px;
+	background-color: #373c44;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+}
+.app-art
+{
+	background-color: #373c44;
+	color: white;
+}
+.sect
+{
+	margin: 0px;
+	background: url('../img/design-tools.jpg');
+}
+.app-bienve
+{
+	background-color: #373c44;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	padding-bottom: 0px;
+}

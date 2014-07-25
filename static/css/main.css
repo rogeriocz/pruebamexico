@@ -1,0 +1,185 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.navbar-personalizado
+{
+background-color: #2C3E50;
+border-radius: 0;
+margin-bottom: 0;
+}
+.link-personalizado
+{
+	color: white;
+	text-shadow:none;
+	font-family: 'Lobster', cursive;
+}
+.link-personalizado:hover
+{
+	color: #dd6c06;
+}
+.navbar-personalizado>li>a 
+{
+	color: white;
+	text-shadow: none;
+	font-size: 12px;
+}
+.navbar-personalizado>li>a:hover
+{
+	background-color: #dd6c06;
+}
+.app-bar
+{
+	background: white;
+}
+.app-footer
+{
+	background-color: #2C3E50;
+	color: white;
+	padding: 3px;
+	
+}
+
+body
+{
+	
+	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Lobster', cursive;*/
+}
+
+
+/*...pruebas...*/
+
+/*.banner {
+	
+	background: url('../img/lapface.jpg');
+	background-color: #34495e;
+	background-size: cover;
+	height: 100%;
+  	width: 100%;
+	margin: 0 auto;
+}*/
+
+.color3
+{
+	background-color: #2C3E50;
+	padding-top: 10px;
+	
+}
+/*.max
+{
+	width: 493px;
+	height: 387px;
+
+
+}*/
+h1
+{
+	color: #f0f0f0;
+	font-size: 60px;
+}
+h2
+{
+	color: #dd6c06;
+	font-size: 30px;
+}
+.app-lista,li
+{
+	color: #f0f0f0;
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif, 400;
+}
+/*estilo de login-redes sociales*/
+.app-redes
+{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.app-sociales
+{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn-facebook{
+	color: white;
+	background-color: #3e5998;
+	border: solid 1px;
+	margin-bottom: 10px;
+}
+.btn-twitter{
+	color: white;
+	background-color: #00acde;
+	
+	border: solid 1px;
+
+}
+.btn{
+	border-radius: 0 !important;
+}
+.app-titulo
+{
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	
+}
+.app-desc
+{
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	
+}
+.app-principal
+{
+	background-color: #2C3E50;
+}
+
+.app-subcribete
+{
+
+	background-color: #dd6c06;
+	
+	font-size: 25px;
+	padding: 25px;
+	text-align: center;
+	color: white;
+	
+}
+.imagen-fondo
+{
+background: url('../img/teclado.jpg');
+max-width: 100%;
+max-height: 100%;
+padding: 50px;
+}
+.app-titulo
+{
+	color: white;
+font-size: 60px;
+font-family: 'Lobster', cursive;
+}
+.app-tex
+{
+	color: white;
+font-size: 30px;
+font-family: 'Lobster', cursive;
+padding: 15px;
+text-align: center;
+}
+.mod-dal
+{
+background-color: #2C3E50;
+color: white;
+}
+.mod-dy
+{
+	color: white;
+text-align: center;
+}
